@@ -7,7 +7,7 @@ local Services  = setmetatable({}, {
 
 --=[ Configuration ]=--
 getgenv().BlockateBot_Settings = {
-    Bot_Name = "BlockBot",
+    Bot_Name = "GapBot",
     Commands_FilePath = "./Blockbot/Commands.lua",
     Commands_Prefix = ".",
     
