@@ -21,7 +21,7 @@ getgenv().BlockateBot_Settings = {
 --=[ ! DO NOT EDIT ANYTHING BELOW THIS LINE ! ]=--
 
 getgenv().BlockateBot_Internal = {
-    ReportersTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/choke-dev/scripts/main/Blockate/BlockBot/Reporters.lua"))(),
+    ReportersTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/deleltra/edit/main/Blockbot/Reporters.lua"))(),
     CommandsTable = getgenv().BlockateBot_Settings.DevMode and loadstring(readfile(getgenv().BlockateBot_Settings.Commands_FilePath))() or loadstring(game:HttpGet("https://raw.githubusercontent.com/choke-dev/scripts/main/Blockate/BlockBot/Commands.lua"))(),
     Connections = {},
 }
