@@ -131,7 +131,7 @@ Commands["help"] = {
 Commands["sourcecode"] = {
     ["Description"] = "View the source code for the bot.",
     ["Usage"] = "sourcecode",
-    ["Permission"] = 0,
+    ["Permission"] = 5,
     ["Function"] = function(Player, Args)
         sayMessage("Visit this link in your browser to view the source code: shlink.choke.dev/Blockate_BotSrc", true, Player)
     end
